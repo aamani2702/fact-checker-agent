@@ -1,0 +1,14 @@
+# Python environment and cache
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node.js and Next.js
+node_modules/
+.next/
+.env.local
+
+# System files
+.DS_Store
+Thumbs.db

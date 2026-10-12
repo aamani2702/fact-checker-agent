@@ -1,14 +1,18 @@
-# Python environment and cache
-venv/
-__pycache__/
-*.pyc
-.env
+# Python / Virtual Environment
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*.pyc
+backend/.env
 
-# Node.js and Next.js
-node_modules/
-.next/
-.env.local
+# Next.js / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/.env*.local
+frontend/out/
 
-# System files
+# OS / Editor Artifacts
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
